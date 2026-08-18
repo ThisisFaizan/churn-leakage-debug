@@ -1,5 +1,5 @@
 I have a churn model in /app/churn and something is off. if you run
-python3 /app/churn/train.py it says validation AUC ~0.95 which seems amazing but when i
+python3 /app/churn/train.py it says validation AUC 0.9538 which seems amazing but when i
 test it on real customers data its no more than a coin flip. can you dig in and figure
 out whats wrong with it and fix it so that our model can generalize well.
 

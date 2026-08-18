@@ -14,4 +14,4 @@ predicts customer churn from account features.
 ## run
 python3 /app/churn/train.py
 
-validation AUC prints ~0.95 but that hasnt matched what we see on live customers.
+validation AUC prints 0.9538 but that hasnt matched what we see on live customers.

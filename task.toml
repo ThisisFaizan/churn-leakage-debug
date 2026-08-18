@@ -24,6 +24,9 @@ junior_time_estimate_min = 300
 # Verifier: runs the test script to check task completion
 [verifier]
 timeout_sec = 900.0
+# test.sh apt-installs curl and uvx; Harbor 0.20 otherwise inherits
+# [environment].allow_internet=false (no-network) and never reaches pytest.
+network_mode = "public"
 
 # Agent: limits how long the agent can run when attempting the task
 [agent]
